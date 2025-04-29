@@ -21,7 +21,7 @@ app.post("/send-email", (req, res) => {
 });
  
   const mailOptions = {
-    from: "wickdev333@gmail.com",      // better to match your sending email
+    from: "subasree5108@gmail.com",      // better to match your sending email
     to: email,                         // send to the customer
     subject: "Order Confirmation",
     text: `Hi ${name},
